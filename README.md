@@ -13,4 +13,4 @@ We will use data science tools to fetch the raw data, visualize it then generat
 Data
 
 
-Based on the definition of our problem, factors that may impact our decision are number of existing restaurants in the neighborhood and nearby. Restaurant data in every neighborhood will be obtained using Foursquare API
+Based on the definition of our problem, factors that may impact our decision are number of existing restaurants in the neighborhood and nearby. Restaurant data in every neighborhood will be obtained using Foursquare API. We will extract the coordinates of all restaurants and their scoring, With the information about venues around a given neighborhood, we can create a dataframe where we can see what kind of venue appears around the neighborhoods in that city and their frequency of appearance. These frequencies are weighted. We can then weight the frequency of these venues in our dataframe for each neighborhood.
